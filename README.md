@@ -1,1 +1,39 @@
-En este sistema de restaurante, el usuario puede seleccionar entre una variedad de opciones del menú, que incluyen entradas, platos principales, bebidas y postres. Cada producto tiene un precio definido y puede agregarse al pedido para calcular el total de la cuenta. Además, el sistema aplica descuentos automáticos según el monto total del pedido: si el total supera los 20, se aplica un descuento del 10%, y si supera los 30, se aplica un descuento del 20%, permitiendo así ofrecer beneficios al cliente por compras mayores.
+# 🧠 Reto_3 POO 
+
+Este repo tiene **dos programas** hechos en Python para practicar Programación Orientada a Objetos.
+
+---
+
+# 📐 1. Geometría
+
+## 🧩 Qué hace
+
+Hay clases para trabajar con cosas geométricas:
+
+- `Point`
+- `Line`
+- `Rectangle`
+
+Con esto puedes:
+
+- Calcular la longitud de una línea
+- Sacar la pendiente (en grados)
+- Ver si una línea cruza el eje X o Y
+- Crear rectángulos de varias formas:
+  - con centro, ancho y alto
+  - con dos puntos
+  - con esquina inferior izquierda
+  - con 4 líneas
+
+---
+
+## Ejemplo
+
+```python
+p1 = Point(2, 3)
+p2 = Point(8, 7)
+
+r = Rectangle(point1=p1, point2=p2)
+
+print(r.compute_area())
+print(r.compute_perimeter())
